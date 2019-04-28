@@ -22,8 +22,8 @@ z = 10
 
 translated = coor.car2sph([x,y,z])
 r = translated[0] # Radius
-i = translated[0] # Inclination
-a = translated[0] # Azimuth
+i = translated[1] # Inclination
+a = translated[2] # Azimuth
 
 print("\nFind hypotenuse, inclination and azimuth in 3 dimensions:")
 print("Hypotenuse =", str(r))
