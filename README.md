@@ -1,5 +1,5 @@
 # CoordinateTranslator
-Written by Torjus Bye, 2019
+Written by Torjus Bye, 2019. https://github.com/Torbye
 Python 3, dependencies: math
 
 Converts list of coordinates in one type to another.
