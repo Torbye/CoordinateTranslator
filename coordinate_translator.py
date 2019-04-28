@@ -1,4 +1,4 @@
-# Written in Python3 by Torjus Bye, 2019.
+# Written in Python3 by Torjus Bye, 2019. https://github.com/Torbye
 
 import math
 
