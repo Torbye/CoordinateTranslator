@@ -24,5 +24,5 @@ def car2sph(coordinate_list):  # Converts cartesian to spherical coordinates [X,
     z = coordinate_list[2]
     radius = math.sqrt(math.pow(x,2)+math.pow(y,2)+math.pow(z,2))
     inclination = math.degrees(math.acos(z/radius))
-    azimuth = math.degrees(math.atan(y/x))
+    azimuth = math.degrees(math.atan2(y,x))
     return [radius, inclination, azimuth]
